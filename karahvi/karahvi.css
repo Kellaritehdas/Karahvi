@@ -1,0 +1,158 @@
+
+
+body{ font: 14px arial; }
+
+input kpl{
+  text-align:center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.head-login{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.head-login input{
+	vertical-align: middle;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.head-login button{
+	border: none;
+	background: none;
+	color: gray;
+	vertical-align: middle;
+	padding: 5px;
+	margin: 10px;
+}
+.head-login button:hover{
+	color: white;
+}
+.head-login li a{
+	border: none;
+	background: none;
+	color: gray;
+	vertical-align: middle;
+	padding: 5px;
+	margin: 10px;
+	padding-bottom: 5px;
+}
+.head-login li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper{ width: 300px;  padding: 20px; margin-left:auto; margin-right:auto;}
+
+.kplmaara { width: 50px;  float: left; margin-right: 5px; height: 30px; font-size: 13px; padding: 5px; }
+
+.mainoslaatikko{ width: 500px; padding: 20px; margin-left:auto; margin-right:auto;}
+
+
+	.button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0px;
+	width: 100%;
+	cursor: pointer;
+	}
+	.button:hover {
+	background-color: white;
+	color: black;
+	}
+	.dropdown-toggle {
+		cursor: pointer;
+	}
+
+.panel-rek{
+	width:120px;
+}
+.panel-rek a{
+
+	font-size:13px;
+}
+.rekok {
+	color:#3ea133;
+	font-size:16px;
+}
+.rekvirhe{
+	color:#ed4300;
+	font-size:16px;
+}
+#toimjamaks {text-align:left; display: inline-block; margin-left: 4%;}
+
+#tulokset button1 a {text-decoration: none; color: white;}
+#tulokset button2 a {text-decoration: none; color: black;}
+#tulokset button3 a {text-decoration: none; color: white;}  
+#tulokset button1, button2, button3 {width: 130px;}
+
+#ts {margin:10px;}
+
+#nk {float:right;margin-right:10%;}
+
+#tp {width: 150px; font-size: 14px; padding: 5px; font-family: arial;}
+#ttt {width: 150px; font-size: 15px; padding: 5px; font-family: arial; text-align: center;}
+
+input[type=time]{
+  font-size: 16px;
+  font-family: arial;  
+}
+#datepicker{
+  font-size: 15px;
+  font-family: arial;  
+}
+
+@media screen and (max-width: 750px){
+
+	.mainoslaatikko{ width: 300px; padding: 10px; margin-left:auto; margin-right:auto;}
+	.button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0px;
+	width: 40%;
+	cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	.mainoslaatikko{ width: 300px; padding: 10px; margin-left:auto; margin-right:auto;}
+	.button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0px;
+	width: 50%;
+	cursor: pointer;
+	}
+}
